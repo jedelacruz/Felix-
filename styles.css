@@ -36,9 +36,16 @@ body{
 
 .img-container img{
     width: 30%;
-    height: 100px;
 }
 
 .johnnySins{
-    width: 500px;
+    width: 80%;
 }
+
+/* Styles for devices with a maximum width of 767 pixels (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 80%;
+    }
+}
+  
